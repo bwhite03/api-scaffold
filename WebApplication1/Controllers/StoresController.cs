@@ -172,16 +172,12 @@ namespace WebApplication1.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpGet]
         [Route("delete")]
         public ActionResult DeleteStore(string id, string apiKey)
         {
             try
-            {
-                return Ok(new
-                {
-                    name = "fred"
-                });
+            {            
                 var ip = _accessor.HttpContext?.Connection?.RemoteIpAddress?.ToString();
                 var userAgent = HttpContext.Request.Headers["user-agent"].ToString();
                 if (!Validation.ValidateApiKey(apiKey, _config))
