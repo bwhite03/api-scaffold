@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\projects\\C#\\C#\\api-scaffold\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\projects\\C#\\C#\\api-scaffold\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\projects\\C#\\C#\\api-scaffold\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Dev\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\mbedi\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "D:\\projects\\C#\\C#\\api-scaffold\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Blake\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\C#\\C#\\api-scaffold\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mbedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Blake\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +62,7 @@
             },
             "NSwag.AspNetCore": {
               "target": "Package",
-              "version": "[13.15.10, )"
+              "version": "[13.0.4, )"
             }
           },
           "imports": [
@@ -72,7 +75,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using NSwag;
 
 namespace WebApplication1.NSwag
 {
-    public class SwaggerLicense
+    internal class SwaggerLicense : OpenApiLicense
     {
         public string Name { get; set; }
         public string Url { get; set; }

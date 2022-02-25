@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using NSwag;
 
 namespace WebApplication1.NSwag
 {
-    public class SwaggerContact
+    internal class SwaggerContact : OpenApiContact
     {
         public string Name { get; set; }
         public string Email { get; set; }
